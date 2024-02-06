@@ -17,9 +17,9 @@ III. If the text is a palindrome, return True else return False.
 
 
 Notes
-1. An empty string is not a palindrome
-2. Case does not matter
-3. White spaces should not be taken into consideration
+i. An empty string is not a palindrome
+ii. Case does not matter
+iii. White spaces should not be taken into consideration
 '''
 
 def palindrome(word):
