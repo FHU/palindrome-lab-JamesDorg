@@ -3,30 +3,26 @@
 Palindrome Lab  
 This is an independent lab. Code and solutions must not be shared among classmates. You may ask me questions.
 
-
 A palindrome is a word with the same letters forward as backwards.
-
 
 Examples of palindromes:  
 kayak  
 Hannah  
 racecar
 
-
 In this lab:
-1. Ask the user for input text
-2. Complete the function palindrome() to determine if the text is a palindrome.
-3. If the text is a palindrome, return True else return False.
+I. Ask the user for input text
+II. Complete the function palindrome() to determine if the text is a palindrome.
+III. If the text is a palindrome, return True else return False.
 
 
 Notes
-1. An empty string is not a palindrome
-2. Case does not matter
-3. White spaces should not be taken into consideration
+i. An empty string is not a palindrome
+ii. Case does not matter
+iii. White spaces should not be taken into consideration
+yay
 '''
 
-
-#REMOVE PASS AND FIX THIS FUNCTION
 def palindrome(word):
    
     if word.isspace():
@@ -45,6 +41,7 @@ def palindrome(word):
 
 #YOUR CODE GOES HERE
 
-
-imp = input()
-print(palindrome(imp))
+if __name__ == '__main__':
+    
+    imp = input()
+    print(palindrome(imp))
