@@ -40,6 +40,7 @@ def palindrome(word):
 
 #YOUR CODE GOES HERE
 
-
-imp = input()
-print(palindrome(imp))
+if __name__ == '__main__':
+    
+    imp = input()
+    print(palindrome(imp))
