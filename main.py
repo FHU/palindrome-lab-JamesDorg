@@ -20,6 +20,7 @@ Notes
 i. An empty string is not a palindrome
 ii. Case does not matter
 iii. White spaces should not be taken into consideration
+yay
 '''
 
 def palindrome(word):
